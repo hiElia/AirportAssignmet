@@ -8,7 +8,7 @@ namespace AirPortAssignment.Models
     public class Airplane
     {
         public int Id { get; set; }
-        public int MyProperty { get; set; }
+        public int Age { get; set; }
         public int MaxNumOfPassangers { get; set; }
         public int SizeInMeter { get; set; }
         public int CurrentAirportId { get; set; }  //Foreign Key
